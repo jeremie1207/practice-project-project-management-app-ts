@@ -1,7 +1,13 @@
 import "./App.css";
+import ProjectsSidebar from "./components/ProjectsSidebar";
 
 function App() {
-  return <></>;
+  return <>
+    <main className="h-screen my-8">
+      <ProjectsSidebar></ProjectsSidebar>
+    </main>
+    
+  </>;
 }
 
 export default App;
